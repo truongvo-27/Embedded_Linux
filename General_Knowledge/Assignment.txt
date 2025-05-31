@@ -1,0 +1,3 @@
+BT1: Tạo một static library (.a)
+BT2: Tạo một shared library (.so)
+Lưu ý: Sử dụng Makefile thực hiện tự động build tất cả các bước.
