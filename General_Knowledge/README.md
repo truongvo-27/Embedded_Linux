@@ -5,13 +5,13 @@
 ### BT1: Tạo Static Library (.a)
 
 * Viết mã nguồn cho static library (file .c và header .h)
-* Dùng lệnh `ar` để tạo file static library (.a)
+* Tạo file static library (.a)
 * Viết chương trình chính sử dụng static library đã tạo
 
 ### BT2: Tạo Shared Library (.so)
 
 * Viết mã nguồn cho shared library (file .c và header .h)
-* Dùng lệnh `gcc -shared -fPIC` để tạo file shared library (.so)
+* Tạo file shared library (.so)
 * Viết chương trình chính sử dụng shared library đã tạo
 
 ## Yêu cầu:
