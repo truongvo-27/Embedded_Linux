@@ -1,4 +1,4 @@
-# Bài Tập: Tạo Static Library và Shared Library
+# Makefile
 
 ## Mô tả bài tập
 
