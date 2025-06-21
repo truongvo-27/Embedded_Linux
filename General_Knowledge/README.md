@@ -1,23 +1,24 @@
-Bài Tập: Tạo Static Library và Shared Library
+# Bài Tập: Tạo Static Library và Shared Library
 
-Mô tả bài tập
+## Mô tả bài tập
 
-BT1: Tạo Static Library (.a)
+### BT1: Tạo Static Library (.a)
 
-Viết mã nguồn cho static library (file .c và header .h)
+* Viết mã nguồn cho static library (file .c và header .h)
+* Dùng lệnh `ar` để tạo file static library (.a)
+* Viết chương trình chính sử dụng static library đã tạo
 
-Dùng lệnh ar để tạo file static library (.a)
+### BT2: Tạo Shared Library (.so)
 
-Viết chương trình chính sử dụng static library đã tạo
+* Viết mã nguồn cho shared library (file .c và header .h)
+* Dùng lệnh `gcc -shared -fPIC` để tạo file shared library (.so)
+* Viết chương trình chính sử dụng shared library đã tạo
 
-BT2: Tạo Shared Library (.so)
+## Yêu cầu:
 
-Viết mã nguồn cho shared library (file .c và header .h)
+* Sử dụng Makefile để tự động hoá quá trình build static library, shared library và chương trình chính.
 
-Dùng lệnh gcc -shared -fPIC để tạo file shared library (.so)
 
-Viết chương trình chính sử dụng shared library đã tạo
 
-Yêu cầu:
 
-Sử dụng Makefile để tự động hoá quá trình build static library, shared library và chương trình chính.
+
